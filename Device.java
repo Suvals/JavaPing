@@ -185,7 +185,7 @@ public class Device {
 
     public void pingHost(PingData pingData, int offlineTimeOut, int onlineTimeOut) {
 
-        Locale locale = new Locale("ru");
+        Locale locale = new Locale("ua");
         DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.DEFAULT, DateFormat.DEFAULT, locale);
 
         while (!Thread.currentThread().isInterrupted()) {
